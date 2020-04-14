@@ -15,4 +15,6 @@ $router->get('/', function () use ($router) {
     return $router->app->version();
 });
 
-$router->get('/books', 'BookController@index');
+$router->group(['middleware' => 'client'], function() use ($router){
+    $router->get('/books', 'BookController@index');
+});

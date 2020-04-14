@@ -21,7 +21,7 @@ class BookServices
     public function obtainBooks()
     {
         try{
-            $this->performRequest('GET', '/book');
+            return $this->performRequest('GET', '/provinsi');
         }catch(\Exception $e){
             return $e;
         }
