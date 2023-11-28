@@ -2262,6 +2262,7 @@
                     "type": "community_bridge"
                 }
             ],
+            "abandoned": true,
             "time": "2020-04-03T16:01:00+00:00"
         },
         {
@@ -3097,6 +3098,7 @@
                 "stream",
                 "uri"
             ],
+            "abandoned": "psr/http-factory",
             "time": "2023-04-14T14:16:17+00:00"
         },
         {
@@ -3156,16 +3158,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "2.0.27",
+            "version": "2.0.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "34620af4df7d1988d8f0d7e91f6c8a3bf931d8dc"
+                "reference": "28d8f438a0064c9de80857e3270d071495544640"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/34620af4df7d1988d8f0d7e91f6c8a3bf931d8dc",
-                "reference": "34620af4df7d1988d8f0d7e91f6c8a3bf931d8dc",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/28d8f438a0064c9de80857e3270d071495544640",
+                "reference": "28d8f438a0064c9de80857e3270d071495544640",
                 "shasum": ""
             },
             "require": {
@@ -3173,15 +3175,15 @@
             },
             "require-dev": {
                 "phing/phing": "~2.7",
-                "phpunit/phpunit": "^4.8.35|^5.7|^6.0",
-                "sami/sami": "~2.0",
+                "phpunit/phpunit": "^4.8.35|^5.7|^6.0|^9.4",
                 "squizlabs/php_codesniffer": "~2.0"
             },
             "suggest": {
                 "ext-gmp": "Install the GMP (GNU Multiple Precision) extension in order to speed up arbitrary precision integer arithmetic operations.",
                 "ext-libsodium": "SSH2/SFTP can make use of some algorithms provided by the libsodium-php extension.",
                 "ext-mcrypt": "Install the Mcrypt extension in order to speed up a few other cryptographic operations.",
-                "ext-openssl": "Install the OpenSSL extension in order to speed up a wide variety of cryptographic operations."
+                "ext-openssl": "Install the OpenSSL extension in order to speed up a wide variety of cryptographic operations.",
+                "ext-xml": "Install the XML extension to load XML formatted public keys."
             },
             "type": "library",
             "autoload": {
@@ -3258,7 +3260,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-04-04T23:17:33+00:00"
+            "time": "2023-09-15T20:55:47+00:00"
         },
         {
             "name": "psr/container",
@@ -5682,6 +5684,20 @@
             "keywords": [
                 "constructor",
                 "instantiate"
+            ],
+            "funding": [
+                {
+                    "url": "https://www.doctrine-project.org/sponsorship.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/phpdoctrine",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Finstantiator",
+                    "type": "tidelift"
+                }
             ],
             "time": "2019-10-21T16:45:58+00:00"
         },
